@@ -44,6 +44,13 @@ def scrape_website(url):
                 'div', class_='result-item-pricing').find('div', class_='price')
             price = price_element.text.strip() if price_element else None
 
+            fuel_element = car_item.find('div', class_='result-item-in').find_all('div', class_='col-md-12')[
+                1].find('div', class_='result-item-features').find('ul', class_='inline').find_all('li')
+            if len(fuel_element) >= 2:
+                first_li_text = fuel_element[0].text.strip()
+            else:
+                first_li_text = None
+
             year_element = car_item.find(
                 'div', class_='col-md-12').find('div', class_='col-md-2')
             year_text = year_element.text.strip() if year_element else None
@@ -60,13 +67,19 @@ def scrape_website(url):
             else:
                 second_li_text = None
 
+            region_elements = car_item.find('div', class_='result-item-in').find(
+                'div', class_='col-md-12')[1].find('div', class_='col-md-3').find_all('div'[2])
+            region = region_elements.text.strip() if title_element else None
+
             item_data = {
                 'id': index,
                 'title': title,
                 'year': year,
                 'price': price,
                 'image': image,
-                'millage': second_li_text
+                'millage': second_li_text,
+                'fuel': first_li_text,
+                'region': region,
             }
             scraped_data.append(item_data)
 
