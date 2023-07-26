@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "title": "Mercedes-Benz GT",
+        "year": "2019",
+        "price": "149 900\n€",
+        "image": "https://automoto.bg/listings/media/listing//1690218956_11690102196687514_nk.jpg",
+        "millage": "49600 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 2,
+        "title": "Audi RS5",
+        "year": "2020",
+        "price": "139 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1690218498_11690203407215082_an.jpg",
+        "millage": "67000 км.",
+        "fuel": "Бензин",
+        "region": "Бургас"
+    },
+    {
+        "id": 3,
+        "title": "BMW 330",
+        "year": "2020",
+        "price": "89 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1689789235_11689773158455423_yo.png",
+        "millage": "48000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 4,
+        "title": "Mercedes-Benz CLS 500",
+        "year": "2015",
+        "price": "77 777 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1662474469_11662403051285270_lg.png",
+        "millage": "169000 км.",
+        "fuel": "Бензин",
+        "region": "Благоевград"
+    },
+    {
+        "id": 5,
+        "title": "Mercedes-Benz GT",
+        "year": "2020",
+        "price": "219 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1689616798_11689245193440275_aj.jpg",
+        "millage": "17000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 6,
+        "title": "BMW 330",
+        "year": "2021",
+        "price": "88 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1689262686_11684334170958731_by.jpg",
+        "millage": "6300 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 7,
+        "title": "Audi RS7",
+        "year": "2021",
+        "price": "120 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1689073725_11689068885063685_7o.jpg",
+        "millage": "6600 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 8,
+        "title": "Mercedes-Benz S 63 AMG",
+        "year": "2015",
+        "price": "55 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1684847865_11680117076322653_tc.jpg",
+        "millage": "225000 км.",
+        "fuel": "Бензин",
+        "region": "Бургас"
+    },
+    {
+        "id": 9,
+        "title": "BMW 850",
+        "year": "2019",
+        "price": "160 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1688882319_11680598530345771_rc.jpg",
+        "millage": "70000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 10,
+        "title": "BMW М5",
+        "year": "2019",
+        "price": "148 900 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1688733913_11686645601369169_nm.jpg",
+        "millage": "39600 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 11,
+        "title": "Mercedes-Benz Е 63 AMG",
+        "year": "2014",
+        "price": "74 990 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1688479524_1.jpg",
+        "millage": "130000 км.",
+        "fuel": "Бензин",
+        "region": "Хасково"
+    },
+    {
+        "id": 12,
+        "title": "BMW 340",
+        "year": "2020",
+        "price": "87 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1688411332_airbrush_20230603201614.jpg",
+        "millage": "89400 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 13,
+        "title": "BMW М3",
+        "year": "2022",
+        "price": "78 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1688041040_11684774465863218_t8.jpg",
+        "millage": "24000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 14,
+        "title": "BMW М5",
+        "year": "2017",
+        "price": "156 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1687510087_11684616823518731_76.jpg",
+        "millage": "63000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 15,
+        "title": "Porsche Panamera",
+        "year": "2017",
+        "price": "153 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1687177718_11678910141717890_rj.jpg",
+        "millage": "94800 км.",
+        "fuel": "Бензин",
+        "region": "Стара Загора"
+    },
+    {
+        "id": 16,
+        "title": "BMW 340",
+        "year": "2020",
+        "price": "109 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1686826022_11683830694601509_kp.jpg",
+        "millage": "77000 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 17,
+        "title": "Mercedes-Benz Е 63 AMG",
+        "year": "2019",
+        "price": "142 800 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1686567235_11680473997184525_6j.jpg",
+        "millage": "134000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 18,
+        "title": "Audi S8",
+        "year": "2016",
+        "price": "118 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1686566689_11686170494821308_na.jpg",
+        "millage": "63000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 19,
+        "title": "Audi RS7",
+        "year": "2021",
+        "price": "137 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1686561674_11686068032624870_vb.jpg",
+        "millage": "23000 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 20,
+        "title": "Mercedes-Benz C 43 AMG",
+        "year": "2017",
+        "price": "46 500\n€",
+        "image": "https://automoto.bg/listings/media/listing//1686157229_11684772741675140_x4.jpg",
+        "millage": "100000 км.",
+        "fuel": "Бензин",
+        "region": "Сливен"
+    },
+    {
+        "id": 1,
+        "title": "Audi A7",
+        "year": "2019",
+        "price": "84 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1685788483_11685723501114053_3d.jpg",
+        "millage": "80000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 2,
+        "title": "BMW M8",
+        "year": "2022",
+        "price": "252 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1685302320_11676214281828441_h.jpg",
+        "millage": "12000 км.",
+        "fuel": "Бензин",
+        "region": "Бургас"
+    },
+    {
+        "id": 3,
+        "title": "Audi RS7",
+        "year": "2016",
+        "price": "120 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1668619822_11667314434511137_xx.jpg",
+        "millage": "52000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 4,
+        "title": "Audi S5",
+        "year": "2021",
+        "price": "99 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1684833845_11682166534235981_zc.jpg",
+        "millage": "21000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 5,
+        "title": "BMW 840",
+        "year": "2021",
+        "price": "153 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1684741791_11681209924618141_b.jpg",
+        "millage": "48000 км.",
+        "fuel": "Бензин",
+        "region": "Перник"
+    },
+    {
+        "id": 6,
+        "title": "BMW 340",
+        "year": "2021",
+        "price": "98 900 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1684696125_11684662570870249_9j.jpg",
+        "millage": "10500 км.",
+        "fuel": "Бензин",
+        "region": "Русе"
+    },
+    {
+        "id": 7,
+        "title": "Mercedes-Benz GT",
+        "year": "2018",
+        "price": "114 999\n €",
+        "image": "https://automoto.bg/listings/media/listing//1684578914_11684157323791455_5s.jpg",
+        "millage": "86000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 8,
+        "title": "Audi S4",
+        "year": "2020",
+        "price": "103 900 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1684502152_11679254274737178_9e.jpg",
+        "millage": "29000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 9,
+        "title": "BMW 540",
+        "year": "2018",
+        "price": "100 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1684175286_11681396276801685_ix.jpg",
+        "millage": "60000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 10,
+        "title": "BMW М3",
+        "year": "2015",
+        "price": "98 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1683719104_11681215332457474_ia.jpg",
+        "millage": "110000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 11,
+        "title": "BMW М3",
+        "year": "2016",
+        "price": "110 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1683617451_11683448781704298_si.jpg",
+        "millage": "107000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 12,
+        "title": "Mercedes-Benz Е 63 AMG",
+        "year": "2017",
+        "price": "170 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1683291392_11681314418739310_pv.jpg",
+        "millage": "86275 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 13,
+        "title": "Audi S8",
+        "year": "2017",
+        "price": "81 900 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1683030161_11683017123810797_i4.jpg",
+        "millage": "250000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 14,
+        "title": "Mercedes-Benz Е 63 AMG",
+        "year": "2015",
+        "price": "88 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1682876292_11666291403709025_sq.jpg",
+        "millage": "59000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 15,
+        "title": "Audi S8",
+        "year": "2014",
+        "price": "77 900 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1683010399_4b429738-bcf8-40b8-86a3-a8c21030f82a.jpeg",
+        "millage": "168900 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 16,
+        "title": "Mercedes-Benz GT",
+        "year": "2022",
+        "price": "213 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1665926619_11665725323486255_vb.jpg",
+        "millage": "25000 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 17,
+        "title": "Audi RS7",
+        "year": "2017",
+        "price": "111 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1682351625_11682228794283810_ay_(1).jpg",
+        "millage": "66230 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 18,
+        "title": "Mercedes-Benz GT",
+        "year": "2019",
+        "price": "230 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1682350199_11681158894093668_xb.jpg",
+        "millage": "98000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 19,
+        "title": "BMW М3",
+        "year": "2017",
+        "price": "103 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1682092433_642aef2edacb578bb90d3f82o.jpg",
+        "millage": "107000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 20,
+        "title": "Mercedes-Benz GT",
+        "year": "2019",
+        "price": "100 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1682091928_643c54cf46fc4fba090ba272o.jpg",
+        "millage": "93300 км.",
+        "fuel": "Бензин",
+        "region": "Бургас"
+    },
+    {
+        "id": 1,
+        "title": "Audi RS7",
+        "year": "2016",
+        "price": "114 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1682072342_64319fb9cec49bdf7b013b53o.jpg",
+        "millage": "194000 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 2,
+        "title": "BMW 760",
+        "year": "2017",
+        "price": "129 500 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1681023867_img_5986.jpeg",
+        "millage": "182000 км.",
+        "fuel": "Бензин",
+        "region": "Бургас"
+    },
+    {
+        "id": 3,
+        "title": "Audi S8",
+        "year": "2016",
+        "price": "109 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1680428871_11680294034009413_1s.jpg",
+        "millage": "145000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 4,
+        "title": "Mercedes-Benz CLA 45",
+        "year": "2022",
+        "price": "145 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1679508295_11679322633788944_y0.jpg",
+        "millage": "9000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 5,
+        "title": "BMW 540",
+        "year": "2018",
+        "price": "74 444 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1678810361_11669619088067408_ha.jpg",
+        "millage": "69000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 6,
+        "title": "Audi A8",
+        "year": "2017",
+        "price": "74 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1678548195_11678460926125924_n.jpg",
+        "millage": "63000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 7,
+        "title": "BMW М5",
+        "year": "2014",
+        "price": "50 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1678279783_11678135675628952_qa.jpg",
+        "millage": "79000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 8,
+        "title": "BMW М6",
+        "year": "2013",
+        "price": "41 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1678279306_11678066449848159_en.jpg",
+        "millage": "75000 км.",
+        "fuel": "Бензин",
+        "region": "Варна"
+    },
+    {
+        "id": 9,
+        "title": "Audi A5 Sportback",
+        "year": "2017",
+        "price": "85 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1678277609_11677426356918769_yc.jpg",
+        "millage": "94000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 10,
+        "title": "Audi S8",
+        "year": "2014",
+        "price": "84 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1677950561_63fa78f433f365f6c308bb32o.jpg",
+        "millage": "143000 км.",
+        "fuel": "Бензин",
+        "region": "Велико Търново"
+    },
+    {
+        "id": 11,
+        "title": "Audi S8",
+        "year": "2017",
+        "price": "119 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1677350149_11677236238255794_6x.jpg",
+        "millage": "112500 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 12,
+        "title": "Mercedes-Benz GT",
+        "year": "2019",
+        "price": "117 000\n€",
+        "image": "https://automoto.bg/listings/media/listing//1677179550_11661709822288792_em.jpg",
+        "millage": "60000 км.",
+        "fuel": "Бензин",
+        "region": "Варна"
+    },
+    {
+        "id": 13,
+        "title": "BMW М3",
+        "year": "2017",
+        "price": "120 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1667913872_11667892831386465_9t.jpg",
+        "millage": "127000 км.",
+        "fuel": "Бензин",
+        "region": "Благоевград"
+    },
+    {
+        "id": 14,
+        "title": "Audi S8",
+        "year": "2015",
+        "price": "80 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1677002157_11676412316711400_ua.jpg",
+        "millage": "190000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 15,
+        "title": "BMW М6",
+        "year": "2013",
+        "price": "99 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1673601621_11672872621748376_fk.jpg",
+        "millage": "135000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 16,
+        "title": "Mercedes-Benz C 63 AMG",
+        "year": "2019",
+        "price": "153 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1676891476_11676720623266703_jz.jpg",
+        "millage": "35000 км.",
+        "fuel": "Бензин",
+        "region": "София - град"
+    },
+    {
+        "id": 17,
+        "title": "Mercedes-Benz S 63 AMG",
+        "year": "2014",
+        "price": "109 500 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1676891102_11676886753250552_xf.jpg",
+        "millage": "225000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    },
+    {
+        "id": 18,
+        "title": "Mercedes-Benz Е 400",
+        "year": "2017",
+        "price": "74 400 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1676545810_11662487334698969_9i.jpg",
+        "millage": "101300 км.",
+        "fuel": "Бензин",
+        "region": "Габрово"
+    },
+    {
+        "id": 19,
+        "title": "Audi S8",
+        "year": "2015",
+        "price": "86 999 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1676531123_6.jpg",
+        "millage": "203000 км.",
+        "fuel": "Бензин",
+        "region": "Силистра"
+    },
+    {
+        "id": 20,
+        "title": "BMW М5",
+        "year": "2013",
+        "price": "70 000 лв.",
+        "image": "https://automoto.bg/listings/media/listing//1676305627_ed579300-2090-49e2-93bb-aac20640bea9.jpeg",
+        "millage": "120000 км.",
+        "fuel": "Бензин",
+        "region": "Пловдив"
+    }
+]

@@ -67,9 +67,16 @@ def scrape_website(url):
             else:
                 second_li_text = None
 
-            region_elements = car_item.find('div', class_='result-item-in').find(
-                'div', class_='col-md-12')[1].find('div', class_='col-md-3').find_all('div'[2])
-            region = region_elements.text.strip() if title_element else None
+            region_elements = car_item.find('div', class_='result-item-in').find_all(
+                'div', class_='col-md-12')[0].find_all('div', class_='col-md-3')[1].find_all('div')
+            if len(region_elements) >= 2:
+                second_div_text = region_elements[1].text.strip()
+            else:
+                second_div_text = None
+
+            path_element = car_item.find('a', href=True)
+            path = path_element['href'] if path_element else None
+            print(path)
 
             item_data = {
                 'id': index,
@@ -79,7 +86,8 @@ def scrape_website(url):
                 'image': image,
                 'millage': second_li_text,
                 'fuel': first_li_text,
-                'region': region,
+                'region': second_div_text,
+                'path': path
             }
             scraped_data.append(item_data)
 
@@ -120,7 +128,7 @@ def scrape_multiple_pages(base_url, start_page, end_page):
 
 if __name__ == "__main__":
     # Replace 'your_website_url_here' with the actual URL of your website
-    website_url = "https://automoto.bg/listings/search?type_id=1&person=1&firm=2&coupe_id=3&door_id=&area_id=23&mark_id=&fuel_id=5&speed_id=4&condition_new=1&year_id=287&price_for=100000&price_to=&order=1"
+    website_url = "https://automoto.bg/listings/search?type_id=1&order=1&person=1&firm=2&coupe_id=&door_id=&mark_id=&fuel_id=5&speed_id=4&year_id=104&year_id_to=&price_for=54500&price_to=&power_from=250&power_to=&color_id=&where_been=&area_id=&place_id=&condition_new=1"
 
     # Replace 'start_page_number' and 'end_page_number' with the range of pages you want to scrape (e.g., 1 to 5)
     start_page_number = 1
@@ -131,13 +139,15 @@ if __name__ == "__main__":
 
     if scraped_data:
         # Print the scraped data
-        for item in scraped_data:
-            print(item)
 
-        # Save the data to a JSON file
-        with open("scraped_data.json", mode="w", encoding="utf-8") as file:
+        # Specify the folder path for saving the JSON file
+        folder_path = "/Users/a.petkov/Desktop/reworkedv2/json"
+
+        # Save the data to a JSON file in the specified folder path
+        file_path = f"{folder_path}/data.json"
+        with open(file_path, mode="w", encoding="utf-8") as file:
             json.dump(scraped_data, file, ensure_ascii=False, indent=4)
 
-        print("Data saved to 'scraped_data.json'")
+        print(f"Data saved to '{file_path}'")
     else:
         print("Scraping failed. Please check the URL and try again.")
