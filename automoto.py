@@ -36,57 +36,56 @@ def scrape_website(url):
         # Extract title, region, and prices
         scraped_data = []
         for index, car_item in enumerate(car_items, start=1):
-            title_element = car_item.find(
-                'div', class_='col-md-4').find('h4').find('a', string=True)
-            title = title_element.text.strip() if title_element else None
+            # title_element = car_item.find(
+            #     'div', class_='col-md-4').find('h4').find('a', string=True)
+            # title = title_element.text.strip() if title_element else None
 
-            price_element = car_item.find(
-                'div', class_='result-item-pricing').find('div', class_='price')
-            price = price_element.text.strip() if price_element else None
+            # price_element = car_item.find(
+            #     'div', class_='result-item-pricing').find('div', class_='price')
+            # price = price_element.text.strip() if price_element else None
 
-            fuel_element = car_item.find('div', class_='result-item-in').find_all('div', class_='col-md-12')[
-                1].find('div', class_='result-item-features').find('ul', class_='inline').find_all('li')
-            if len(fuel_element) >= 2:
-                first_li_text = fuel_element[0].text.strip()
-            else:
-                first_li_text = None
+            # fuel_element = car_item.find('div', class_='result-item-in').find_all('div', class_='col-md-12')[
+            #     1].find('div', class_='result-item-features').find('ul', class_='inline').find_all('li')
+            # if len(fuel_element) >= 2:
+            #     first_li_text = fuel_element[0].text.strip()
+            # else:
+            #     first_li_text = None
 
-            year_element = car_item.find(
-                'div', class_='col-md-12').find('div', class_='col-md-2')
-            year_text = year_element.text.strip() if year_element else None
-            year = extract_year_from_string(year_text) if year_text else None
+            # year_element = car_item.find(
+            #     'div', class_='col-md-12').find('div', class_='col-md-2')
+            # year_text = year_element.text.strip() if year_element else None
+            # year = extract_year_from_string(year_text) if year_text else None
 
-            image_element = car_item.find(
-                'div', class_='result-item-image').find('a', class_='media-box').find('img', src=True)
-            image = image_element['src'] if image_element and 'src' in image_element.attrs else None
+            # image_element = car_item.find(
+            #     'div', class_='result-item-image').find('a', class_='media-box').find('img', src=True)
+            # image = image_element['src'] if image_element and 'src' in image_element.attrs else None
 
-            millage_elements = car_item.find('div', class_='result-item-in').find_all('div', class_='col-md-12')[
-                1].find('div', class_='result-item-features').find('ul', class_='inline').find_all('li')
-            if len(millage_elements) >= 2:
-                second_li_text = millage_elements[1].text.strip()
-            else:
-                second_li_text = None
+            # millage_elements = car_item.find('div', class_='result-item-in').find_all('div', class_='col-md-12')[
+            #     1].find('div', class_='result-item-features').find('ul', class_='inline').find_all('li')
+            # if len(millage_elements) >= 2:
+            #     second_li_text = millage_elements[1].text.strip()
+            # else:
+            #     second_li_text = None
 
-            region_elements = car_item.find('div', class_='result-item-in').find_all(
-                'div', class_='col-md-12')[0].find_all('div', class_='col-md-3')[1].find_all('div')
-            if len(region_elements) >= 2:
-                second_div_text = region_elements[1].text.strip()
-            else:
-                second_div_text = None
+            # region_elements = car_item.find('div', class_='result-item-in').find_all(
+            #     'div', class_='col-md-12')[0].find_all('div', class_='col-md-3')[1].find_all('div')
+            # if len(region_elements) >= 2:
+            #     second_div_text = region_elements[1].text.strip()
+            # else:
+            #     second_div_text = None
 
             path_element = car_item.find('a', href=True)
             path = path_element['href'] if path_element else None
-            print(path)
 
             item_data = {
-                'id': index,
-                'title': title,
-                'year': year,
-                'price': price,
-                'image': image,
-                'millage': second_li_text,
-                'fuel': first_li_text,
-                'region': second_div_text,
+                # 'id': index,
+                # 'title': title,
+                # 'year': year,
+                # 'price': price,
+                # 'image': image,
+                # 'millage': second_li_text,
+                # 'fuel': first_li_text,
+                # 'region': second_div_text,
                 'path': path
             }
             scraped_data.append(item_data)
@@ -128,7 +127,7 @@ def scrape_multiple_pages(base_url, start_page, end_page):
 
 if __name__ == "__main__":
     # Replace 'your_website_url_here' with the actual URL of your website
-    website_url = "https://automoto.bg/listings/search?type_id=1&order=1&person=1&firm=2&coupe_id=&door_id=&mark_id=&fuel_id=5&speed_id=4&year_id=104&year_id_to=&price_for=54500&price_to=&power_from=250&power_to=&color_id=&where_been=&area_id=&place_id=&condition_new=1"
+    website_url = "https://automoto.bg/listings/search?type_id=1&order=1&person=1&firm=2&coupe_id=&door_id=&mark_id=&fuel_id=5&speed_id=&year_id=285&year_id_to=&price_for=70000&price_to=&power_from=250&power_to=&color_id=&where_been=&area_id=&place_id=&condition_new=1"
 
     # Replace 'start_page_number' and 'end_page_number' with the range of pages you want to scrape (e.g., 1 to 5)
     start_page_number = 1
@@ -141,7 +140,7 @@ if __name__ == "__main__":
         # Print the scraped data
 
         # Specify the folder path for saving the JSON file
-        folder_path = "/Users/a.petkov/Desktop/reworkedv2/json"
+        folder_path = "/Users/a.petkov/Desktop/eachCarScraper"
 
         # Save the data to a JSON file in the specified folder path
         file_path = f"{folder_path}/data.json"
