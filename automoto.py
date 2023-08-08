@@ -92,7 +92,7 @@ if __name__ == "__main__":
         # Print the scraped data
 
         # Specify the folder path for saving the JSON file
-        folder_path = "/Users/a.petkov/Desktop/eachCarScraper"
+        folder_path = "/Users/a.petkov/Desktop/TrainingGuides/Car"
 
         # Save the data to a JSON file in the specified folder path
         file_path = f"{folder_path}/data.json"
